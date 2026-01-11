@@ -5,15 +5,15 @@ export function Header() {
     return (
         <header className="fixed w-full top-0 z-50 bg-[#050709]/90 backdrop-blur-md border-b border-gray-800">
             <div className="container mx-auto px-6 py-6 flex justify-between items-center">
-                {/* <Link href="/" className="flex items-center gap-2 group">
+                <Link href="/" className="flex items-center gap-2 group">
                     <div className="w-10 h-10 bg-gradient-to-br from-primary to-blue-800 rounded-full flex items-center justify-center text-white font-bold text-xl group-hover:scale-110 transition-transform">
                         S
                     </div>
                     <span className="text-sm font-semibold hidden md:block text-gray-300 group-hover:text-white transition-colors">
-                        mail@samiulsheikh.com
+                        Samiul Sheikh
                     </span>
-                </Link> */}
-                <Link href="/" className="flex items-center gap-2 group">
+                </Link>
+                {/* <Link href="/" className="flex items-center gap-2 group">
                     <Image
                         src="/samiul_logo.png"
                         alt="Samiul Sheikh Logo"
@@ -22,7 +22,7 @@ export function Header() {
                         priority
                         className="rounded-full object-contain group-hover:scale-110 transition-transform"
                     />
-                </Link>
+                </Link> */}
 
                 <nav className="hidden md:flex gap-8 text-sm font-medium text-gray-300">
                     <Link href="#services" className="hover:text-primary transition-colors">
