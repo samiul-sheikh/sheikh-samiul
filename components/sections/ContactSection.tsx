@@ -254,7 +254,7 @@ export function ContactSection() {
                                     href="mailto:sheikh.samiul1971@gmail.com"
                                     className="text-white font-bold text-lg hover:text-primary transition-colors"
                                 >
-                                    samiul247@gmail.com
+                                    samiulgmail.com
                                 </a>
                             </div>
                         </div>

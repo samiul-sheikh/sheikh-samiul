@@ -148,7 +148,7 @@ export function HeroSection() {
                     </div>
                     <div className="flex items-center gap-3">
                         <span className="text-5xl font-bold text-white hover:text-primary transition-colors">
-                            100
+                            80
                         </span>
                         <span className="text-sm text-gray-400">
                             Project <br />Completed

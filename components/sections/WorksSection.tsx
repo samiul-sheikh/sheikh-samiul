@@ -135,7 +135,7 @@ export function WorksSection() {
                             </span>
                         </div>
                         <div className="flex items-center gap-3">
-                            <span className="text-5xl font-bold text-gradient-blue">100</span>
+                            <span className="text-5xl font-bold text-gradient-blue">80</span>
                             <span className="text-sm text-gray-400">
                                 Project <br />Completed
                             </span>
