@@ -1,21 +1,21 @@
 "use client";
 
 import { Timeline } from "@/components/ui/timeline";
-import { Code2, Terminal, Briefcase, Wrench, Store, GraduationCap, } from "lucide-react";
+import { Code2, Briefcase, Store, GraduationCap, } from "lucide-react";
 
 
 const experienceData = [
     {
         title: "2022 - 2025",
         content: (
-            <div className="bg-card p-6 rounded-[20px] border border-secondary">
+            <div className="bg-card p-4 sm:p-5 md:p-6 rounded-[20px] border border-secondary">
                 <div className="flex items-center gap-4 mb-4">
                     <div className="w-12 h-12 bg-gradient-to-br from-primary to-blue-600 rounded-xl flex items-center justify-center">
-                        <Code2 size={26} className="text-white" />
+                        <Code2 className="text-white w-5 h-5 sm:w-6 sm:h-6" />
                     </div>
                     <div>
-                        <h4 className="text-xl font-bold text-white">Software Engineer</h4>
-                        <p className="text-gray-400 text-sm">Bindulogic LLC</p>
+                        <h4 className="text-lg sm:text-xl font-bold text-white leading-snug">Software Engineer</h4>
+                        <p className="text-gray-400 text-xs sm:text-sm">Bindulogic LLC</p>
                     </div>
                 </div>
                 <p className="text-gray-400 text-sm leading-relaxed">
@@ -39,13 +39,11 @@ const experienceData = [
             <div className="bg-card p-6 rounded-[20px] border border-secondary">
                 <div className="flex items-center gap-4 mb-4">
                     <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-pink-500 rounded-xl flex items-center justify-center">
-                        {/* <Terminal size={26} className="text-white" /> */}
-                        <GraduationCap size={26} className="text-white" />
-
+                        <GraduationCap className="text-white w-5 h-5 sm:w-6 sm:h-6" />
                     </div>
                     <div>
-                        <h4 className="text-xl font-bold text-white">Software Engineer Trainee</h4>
-                        <p className="text-gray-400 text-sm">Bindulogic LLC</p>
+                        <h4 className="text-lg sm:text-xl font-bold text-white leading-snug">Software Engineer Trainee</h4>
+                        <p className="text-gray-400 text-xs sm:text-sm">Bindulogic LLC</p>
                     </div>
                 </div>
                 <p className="text-gray-400 text-sm leading-relaxed">
@@ -69,11 +67,11 @@ const experienceData = [
             <div className="bg-card p-6 rounded-[20px] border border-secondary">
                 <div className="flex items-center gap-4 mb-4">
                     <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-emerald-500 rounded-xl flex items-center justify-center">
-                        <Briefcase size={26} className="text-white" />
+                        <Briefcase className="text-white w-5 h-5 sm:w-6 sm:h-6" />
                     </div>
                     <div>
-                        <h4 className="text-xl font-bold text-white">IT Consultant</h4>
-                        <p className="text-gray-400 text-sm">Compass Architects</p>
+                        <h4 className="text-lg sm:text-xl font-bold text-white leading-snug">IT Consultant</h4>
+                        <p className="text-gray-400 text-xs sm:text-sm">Compass Architects</p>
                     </div>
                 </div>
                 <p className="text-gray-400 text-sm leading-relaxed">
@@ -94,12 +92,11 @@ const experienceData = [
             <div className="bg-card p-6 rounded-[20px] border border-secondary">
                 <div className="flex items-center gap-4 mb-4">
                     <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-amber-500 rounded-xl flex items-center justify-center">
-                        {/* <Wrench size={26} className="text-white" /> */}
-                        <Store size={26} className="text-white" />
+                        <Store className="text-white w-5 h-5 sm:w-6 sm:h-6" />
                     </div>
                     <div>
-                        <h4 className="text-xl font-bold text-white">WordPress Developer</h4>
-                        <p className="text-gray-400 text-sm">Local + Online Marketplace</p>
+                        <h4 className="text-lg sm:text-xl font-bold text-white leading-snug">WordPress Developer</h4>
+                        <p className="text-gray-400 text-xs sm:text-sm">Freelancing</p>
                     </div>
                 </div>
                 <p className="text-gray-400 text-sm leading-relaxed">
