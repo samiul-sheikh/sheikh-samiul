@@ -18,6 +18,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
     const ref = useRef<HTMLDivElement>(null);
     const containerRef = useRef<HTMLDivElement>(null);
     const [height, setHeight] = useState(0);
+    const isMobile = typeof window !== "undefined" && window.innerWidth < 768;
 
 
     useEffect(() => {
@@ -30,7 +31,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
 
     const { scrollYProgress } = useScroll({
         target: containerRef,
-        offset: ["start 10%", "end 50%"],
+        offset: isMobile ? ["start end", "end end"] : ["start 10%", "end 50%"],
     });
 
 
