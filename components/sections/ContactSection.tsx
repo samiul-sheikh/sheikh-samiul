@@ -98,9 +98,9 @@ export function ContactSection() {
     return (
         <section id="contact" className="py-20 bg-[#050709]">
             <div className="container mx-auto px-6">
-                <div className="bg-card rounded-[30px] p-8 md:p-12 lg:p-16 flex flex-col lg:flex-row gap-12 lg:gap-20 border border-secondary">
+                <div className="bg-card rounded-[30px] p-4 sm:p-6 md:p-12 lg:p-16 flex flex-col lg:flex-row gap-12 lg:gap-20 border border-secondary">
                     {/* Form Side */}
-                    <div className="flex-1 bg-black/30 p-8 rounded-3xl border border-gray-800">
+                    <div className="flex-1 bg-black/30 p-4 sm:p-6 lg:p-8 rounded-3xl border border-gray-800">
                         <h2 className="text-4xl font-bold mb-2">
                             <span className="text-primary">Let&apos;s work</span>{" "}
                             <span className="text-white">together!</span>
@@ -110,7 +110,7 @@ export function ContactSection() {
                             Just simple like that!
                         </p>
 
-                        <form className="space-y-4" onSubmit={handleSubmit}>
+                        <form className="space-y-3 sm:space-y-4" onSubmit={handleSubmit}>
                             <div className="grid md:grid-cols-2 gap-4">
                                 <Input
                                     type="text"
@@ -254,7 +254,7 @@ export function ContactSection() {
                                     href="mailto:sheikh.samiul1971@gmail.com"
                                     className="text-white font-bold text-lg hover:text-primary transition-colors"
                                 >
-                                    samiulgmail.com
+                                    sheikh.samiul1971@gmail.com
                                 </a>
                             </div>
                         </div>
