@@ -55,7 +55,7 @@ export function WorksSection() {
                     {works.map((work, index) => (
                         <div
                             key={index}
-                            className="grid lg:grid-cols-2 gap-12 items-center bg-card p-8 md:p-12 rounded-[30px] border border-secondary hover:border-primary/50 transition-colors duration-300"
+                            className="grid lg:grid-cols-2 gap-12 items-center bg-card p-6 sm:p-8 md:p-12 rounded-[30px] border border-secondary hover:border-primary/50 transition-colors duration-300"
                         >
                             {/* Content */}
                             <div className={`space-y-6 ${work.imageFirst ? "order-2" : "order-2 lg:order-1"}`}>
@@ -110,8 +110,8 @@ export function WorksSection() {
 
                             {/* Image */}
                             <div className={`group rounded-2xl overflow-hidden relative ${work.imageFirst ? "order-1" : "order-1 lg:order-2"}`}>
-                                <div className="bg-gradient-to-br from-secondary to-black rounded-2xl p-4 md:p-8">
-                                    <div className="relative h-[300px] md:h-[400px]">
+                                <div className="bg-gradient-to-br from-secondary to-black rounded-2xl p-2 sm:p-4 md:p-8">
+                                    <div className="relative h-[220px] sm:h-[260px] md:h-[400px]">
                                         <Image
                                             src={work.image}
                                             alt={`${work.title} Project`}
