@@ -251,7 +251,7 @@ export function ContactSection() {
                             <div>
                                 <p className="text-gray-400 text-xs sm:text-sm">Email</p>
                                 <a
-                                    href="mailto:sheikh.samiul1971@gmail.com"
+                                    href="mailto:samiulsheikh247@gmail.com"
                                     className="text-white font-bold text-sm sm:text-lg hover:text-primary transition-colors break-all sm:break-normal"
                                 >
                                     samiulsheikh247@gmail.com

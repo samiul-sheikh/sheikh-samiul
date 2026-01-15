@@ -25,62 +25,25 @@ export function HeroSection() {
 
             <div className="container mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
                 {/* Left Content */}
-                <div className="space-y-8 relative z-10 order-2 lg:order-1">
-                    {/* <h3 className="text-2xl font-bold text-white tracking-wide">
-                        I am Samiul Sheikh
-                    </h3> */}
+                <div className="relative z-10 order-2 lg:order-1 space-y-6 lg:space-y-5">
+
                     <h3 className="text-2xl font-bold text-white tracking-wide">
-                        Hi, I’m Samiul Hasan Sheikh 👋
+                        Hi, I’m Samiul Sheikh 👋
                     </h3>
-
-                    <h1 className="text-5xl lg:text-[70px] font-bold leading-[1.1] tracking-tight">
-                        <TypingAnimation
-                            className="text-gradient-blue text-5xl lg:text-[70px] font-bold leading-[1.1] tracking-tight"
-                            words={[
-                                "Software Engineer",
-                                "Full Stack Developer",
-                                // "Modern Web Developer",
-                            ]}
-                            loop
-                            typeSpeed={80}
-                            deleteSpeed={50}
-                            pauseDelay={2000}
-                            cursorStyle="line"
-                        />
-                        <br />
-                        {/* <span className="text-white">Software Engineer</span> */}
-
-                        {/* <TypingAnimation
-                            className="text-gradient-blue text-5xl lg:text-[70px] font-bold leading-[1.1] tracking-tight"
-                            words={[
-                                "Next-Level Web",
-                                "Creative Frontend",
-                                "Full Stack",
-                                "Software Engineer",
-                            ]}
-                            loop={true}
-                            typeSpeed={80}
-                            deleteSpeed={50}
-                            pauseDelay={2000}
-                            cursorStyle="line"
-                        />
-                        <br />
-                        <span className="text-white">Developer.</span> */}
-
-                        {/* <TypingAnimation
-                            className="text-gradient-blue text-5xl lg:text-[70px] font-bold leading-[1.1] tracking-tight"
-                            words={["Next-Level Web", "Creative Frontend", "Full Stack"]}
-                            loop={true}
-                            typeSpeed={80}
-                            deleteSpeed={50}
-                            pauseDelay={2000}
-                            cursorStyle="line"
-                        />
-                        <br />
-                        <span className="text-white">Developer.</span> */}
+                    <h1 className="font-bold tracking-tight">
+                        <div className="min-h-[3.2rem] sm:min-h-[3.4rem] lg:min-h-[4.5rem]">
+                            <TypingAnimation
+                                className="text-gradient-blue text-5xl lg:text-[60px] leading-tight"
+                                words={["Software Engineer", "Full Stack Developer"]}
+                                loop
+                                typeSpeed={80}
+                                deleteSpeed={50}
+                                pauseDelay={2000}
+                                cursorStyle="line"
+                            />
+                        </div>
                     </h1>
-
-                    <p className="text-gray-400 max-w-lg leading-relaxed text-lg">
+                    <p className="mt-2 lg:mt-1 text-gray-400 max-w-lg leading-relaxed text-lg">
                         I build scalable, high-performance web applications using modern technologies,
                         focused on clean code, great user experience, and real business impact.
                     </p>
@@ -140,7 +103,7 @@ export function HeroSection() {
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-8 border-t border-gray-800 pt-10">
                     <div className="flex items-center gap-3">
                         <span className="text-5xl font-bold text-white hover:text-primary transition-colors">
-                            10
+                            8
                         </span>
                         <span className="text-sm text-gray-400">
                             Years of <br />Experience

@@ -11,7 +11,13 @@ import {
     SiPrisma,
     SiDocker,
     SiGithub,
+    SiWoocommerce,
+    SiExpress,
+    SiMui,
+    SiPostgresql,
+    SiMongodb,
 } from "react-icons/si";
+import { MdSearch } from "react-icons/md";
 
 const skills = [
     { name: "Next.js", icon: SiNextdotjs },
@@ -19,13 +25,19 @@ const skills = [
     { name: "TypeScript", icon: SiTypescript },
     { name: "JavaScript", icon: SiJavascript },
     { name: "Node.js", icon: SiNodedotjs },
-    { name: "WordPress", icon: SiWordpress },
+    { name: "Express.js", icon: SiExpress },
+    { name: "PostgreSQL", icon: SiPostgresql },
+    { name: "MongoDB", icon: SiMongodb },
     { name: "Tailwind CSS", icon: SiTailwindcss },
     { name: "shadcn/ui", icon: SiShadcnui },
+    { name: "Material UI", icon: SiMui },
     { name: "Chakra UI", icon: SiChakraui },
     { name: "Prisma", icon: SiPrisma },
     { name: "Docker", icon: SiDocker },
     { name: "GitHub", icon: SiGithub },
+    { name: "WordPress", icon: SiWordpress },
+    { name: "WooCommerce", icon: SiWoocommerce },
+    { name: "SEO", icon: MdSearch }
 ];
 
 export function SkillsSection() {
