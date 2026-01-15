@@ -38,8 +38,8 @@ export function HeroSection() {
                             className="text-gradient-blue text-5xl lg:text-[70px] font-bold leading-[1.1] tracking-tight"
                             words={[
                                 "Software Engineer",
-                                "Full-Stack Developer",
-                                "Modern Web Developer",
+                                "Full Stack Developer",
+                                // "Modern Web Developer",
                             ]}
                             loop
                             typeSpeed={80}

@@ -228,46 +228,46 @@ export function ContactSection() {
                     </div>
 
                     {/* Contact Info Side */}
-                    <div className="lg:w-1/3 space-y-8 flex flex-col justify-center">
-                        <div className="flex items-center gap-4">
-                            <div className="w-12 h-12 rounded-full bg-gradient-to-r from-primary to-blue-600 flex items-center justify-center text-white shrink-0">
-                                <span className="material-symbols-outlined text-xl">phone</span>
+                    <div className="lg:w-1/3 space-y-5 sm:space-y-8 flex flex-col justify-center">
+                        <div className="flex items-center gap-3 sm:gap-4">
+                            <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-gradient-to-r from-primary to-blue-600 flex items-center justify-center text-white shrink-0">
+                                <span className="material-symbols-outlined text-lg sm:text-xl">phone</span>
                             </div>
                             <div>
-                                <p className="text-gray-400 text-sm">Phone</p>
+                                <p className="text-gray-400 text-xs sm:text-sm">Phone</p>
                                 <a
                                     href="tel:+8801784097404"
-                                    className="text-white font-bold text-lg hover:text-primary transition-colors"
+                                    className="text-white font-bold text-base sm:text-lg hover:text-primary transition-colors"
                                 >
                                     +88 01784097404
                                 </a>
                             </div>
                         </div>
 
-                        <div className="flex items-center gap-4">
-                            <div className="w-12 h-12 rounded-full bg-gradient-to-r from-primary to-blue-600 flex items-center justify-center text-white shrink-0">
-                                <span className="material-symbols-outlined text-xl">email</span>
+                        <div className="flex items-center gap-3 sm:gap-4">
+                            <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-gradient-to-r from-primary to-blue-600 flex items-center justify-center text-white shrink-0">
+                                <span className="material-symbols-outlined text-lg sm:text-xl">email</span>
                             </div>
                             <div>
-                                <p className="text-gray-400 text-sm">Email</p>
+                                <p className="text-gray-400 text-xs sm:text-sm">Email</p>
                                 <a
                                     href="mailto:sheikh.samiul1971@gmail.com"
-                                    className="text-white font-bold text-lg hover:text-primary transition-colors"
+                                    className="text-white font-bold text-sm sm:text-lg hover:text-primary transition-colors break-all sm:break-normal"
                                 >
                                     samiulsheikh247@gmail.com
                                 </a>
                             </div>
                         </div>
 
-                        <div className="flex items-center gap-4">
-                            <div className="w-12 h-12 rounded-full bg-gradient-to-r from-primary to-blue-600 flex items-center justify-center text-white shrink-0">
-                                <span className="material-symbols-outlined text-xl">
+                        <div className="flex items-center gap-3 sm:gap-4">
+                            <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-gradient-to-r from-primary to-blue-600 flex items-center justify-center text-white shrink-0">
+                                <span className="material-symbols-outlined text-lg sm:text-xl">
                                     location_on
                                 </span>
                             </div>
                             <div>
-                                <p className="text-gray-400 text-sm">Address</p>
-                                <h4 className="text-white font-bold text-lg">
+                                <p className="text-gray-400 text-xs sm:text-sm">Address</p>
+                                <h4 className="text-white font-bold text-base sm:text-lg">
                                     Dhaka, Bangladesh
                                 </h4>
                             </div>
