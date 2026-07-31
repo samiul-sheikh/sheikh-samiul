@@ -50,7 +50,7 @@ export function HeroSection() {
 
                     <div className="flex flex-col sm:flex-row items-start sm:items-center gap-6 pt-4">
                         <a
-                            href="/Samiul_Sheikh_Resume.pdf"
+                            href="/Samiul_Hasan_Sheikh.pdf"
                             download
                             className="px-8 py-3.5 rounded-full border border-primary text-primary hover:bg-primary hover:text-white transition-all flex items-center gap-2 group text-sm font-medium hover:shadow-[0_0_20px_rgba(43,127,255,0.3)]"
                         >
@@ -103,7 +103,7 @@ export function HeroSection() {
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-8 border-t border-gray-800 pt-10">
                     <div className="flex items-center gap-3">
                         <span className="text-5xl font-bold text-white hover:text-primary transition-colors">
-                            8
+                            5
                         </span>
                         <span className="text-sm text-gray-400">
                             Years of <br />Experience
@@ -111,7 +111,7 @@ export function HeroSection() {
                     </div>
                     <div className="flex items-center gap-3">
                         <span className="text-5xl font-bold text-white hover:text-primary transition-colors">
-                            80
+                            50
                         </span>
                         <span className="text-sm text-gray-400">
                             Project <br />Completed
@@ -119,7 +119,7 @@ export function HeroSection() {
                     </div>
                     <div className="flex items-center gap-3">
                         <span className="text-5xl font-bold text-white hover:text-primary transition-colors">
-                            50
+                            30
                         </span>
                         <span className="text-sm text-gray-400">
                             Happy <br />Clients
@@ -127,7 +127,7 @@ export function HeroSection() {
                     </div>
                     <div className="flex items-center gap-3">
                         <span className="text-5xl font-bold text-white hover:text-primary transition-colors">
-                            5
+                            4
                         </span>
                         <span className="text-sm text-gray-400">
                             Years of industry experience

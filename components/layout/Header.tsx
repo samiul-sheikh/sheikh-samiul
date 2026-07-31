@@ -49,7 +49,7 @@ export function Header() {
                 </nav>
 
                 <a
-                    href="/Samiul_Sheikh_Resume.pdf"
+                    href="/Samiul_Hasan_Sheikh.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="px-7 py-3 bg-gradient-to-r from-primary to-blue-600

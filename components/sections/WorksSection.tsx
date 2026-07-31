@@ -129,25 +129,25 @@ export function WorksSection() {
                 <div className="container mx-auto px-6 mt-20">
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-8 border-t border-gray-800 pt-10">
                         <div className="flex items-center gap-3">
-                            <span className="text-5xl font-bold text-gradient-blue">8</span>
+                            <span className="text-5xl font-bold text-gradient-blue">5</span>
                             <span className="text-sm text-gray-400">
                                 Years of <br />Experience
                             </span>
                         </div>
                         <div className="flex items-center gap-3">
-                            <span className="text-5xl font-bold text-gradient-blue">80</span>
+                            <span className="text-5xl font-bold text-gradient-blue">50</span>
                             <span className="text-sm text-gray-400">
                                 Project <br />Completed
                             </span>
                         </div>
                         <div className="flex items-center gap-3">
-                            <span className="text-5xl font-bold text-gradient-blue">50</span>
+                            <span className="text-5xl font-bold text-gradient-blue">30</span>
                             <span className="text-sm text-gray-400">
                                 Happy <br />Clients
                             </span>
                         </div>
                         <div className="flex items-center gap-3">
-                            <span className="text-5xl font-bold text-gradient-blue">5</span>
+                            <span className="text-5xl font-bold text-gradient-blue">4</span>
                             <span className="text-sm text-gray-400">
                                 Years of <br />Industry experience
                             </span>
